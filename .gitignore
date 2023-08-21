@@ -5,3 +5,11 @@ run
 dist
 public
 .DS_Store
+package-lock.json
+node_modules.zip
+reference
+.vscode
+.temp
+.cache
+docs/**/dist/
+docs/.vuepress/dist/
