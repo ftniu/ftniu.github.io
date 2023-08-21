@@ -40,7 +40,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run build
-          > docs/.vuepress/dist/
+          > docs/.vuepress/dist/.nojekyll
 
       # # 复制根目录下的“百度网站收录认证文件”到构建的dist目录
       # - name: Copy baidu-verify file
