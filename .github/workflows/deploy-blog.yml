@@ -49,7 +49,7 @@ jobs:
       #     # 源文件目录
       #     source: baidu_verify_codeva-p5FuxDFHWV.html
       #     # 目标目录
-      #     target: src/.vuepress/dist/
+      #     target: docs/.vuepress/dist/
 
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4
@@ -57,7 +57,7 @@ jobs:
           # 设置部署文档所在的分支名称
           branch: gh-pages
           # 所部署文档的目录
-          folder: src/.vuepress/dist
+          folder: docs/.vuepress/dist
 
       # 同步仓库代码到Gitee
       # - name: Sync repo to Gitee
