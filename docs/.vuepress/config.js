@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'UI Development Guide',
+    title: 'Test vuepress google ads',
     description: 'State Of The Art',
     themeConfig: require('./config/themeConfig/index'),
     // head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
